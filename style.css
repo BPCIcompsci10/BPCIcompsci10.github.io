@@ -79,6 +79,7 @@ button {
 canvas {
   margin: 10px 0;
   border: 1px solid #ccc;
+  background: #21334F;
   width: 600px;
   height: 600px;
   display: block;
