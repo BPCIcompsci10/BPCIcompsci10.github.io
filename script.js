@@ -118,28 +118,28 @@ function checkPose(prediction, video) {
 
         switch(poseNumber) {
             case '1':
-                if (time >= 14.0 && time <= 17.0 && !poseState.triggered) {
+                if (time >= 2.0 && time <= 4.0 && !poseState.triggered) {
                     triggerExplosion(poseState);
                 }
                 break;
             case '2':
-                if (time >= 22.0 && time <= 25.0 && !poseState.triggered) {
+                if (time >= 4.5 && time <= 5.0 && !poseState.triggered) {
                     triggerExplosion(poseState);
                 }
                 break;
                  break;
             case '3':
-                if (time >= 26.0 && time <= 30.0 && !poseState.triggered) {
+                if (time >= 5.0 && time <= 7.5 && !poseState.triggered) {
                     triggerExplosion(poseState);
                 }
                 break;
             case '4':
-                if (time >= 27.0 && time <= 31.0 && !poseState.triggered) {
+                if (time >= 8.0 && time <= 10.0 && !poseState.triggered) {
                     triggerExplosion(poseState);
                 }
                 break;
             case '5':
-                if (time >= 1.0 && time <= 5.0 && !poseState.triggered) {
+                if (time >= 14.0 && time <= 17.0 && !poseState.triggered) {
                     triggerExplosion(poseState);
                 }
                 break;
